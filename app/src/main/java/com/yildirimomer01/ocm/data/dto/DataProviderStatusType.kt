@@ -1,0 +1,10 @@
+package com.yildirimomer01.ocm.data.dto
+
+
+import com.google.gson.annotations.SerializedName
+
+data class DataProviderStatusType(
+    @SerializedName("description") val description: String,
+    @SerializedName("ID") val iD: Int,
+    @SerializedName("IsProviderEnabled") val isProviderEnabled: Boolean
+)
